@@ -114,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     public void ML(View view) {
         String a = pushup.getText().toString();
         int b2 = Integer .parseInt(a);
