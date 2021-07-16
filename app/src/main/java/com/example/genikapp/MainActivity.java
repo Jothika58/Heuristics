@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score=score;
-                list.add("Regular Exercise makes you fit");
+                list.add("Garlic is good for Cancer");
             }
         });
         alcohol_yes.setOnClickListener(new View.OnClickListener() {
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
     public void ML(View view) {
         String a = pushup.getText().toString();
         int b2 = Integer .parseInt(a);
-        int y = (int) (-7.044*b2+49.732);
-        textView9.setText("Improvement in Immunity against Covid-19 by Percentage"+y);
+        int y = (int) (-1.887*b2+66.059);
+        textView9.setText("Covid Infection Susceptibility : "+y);
     }
 }
